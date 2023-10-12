@@ -1,0 +1,117 @@
+header {
+    background-color: darkblue;
+    text-align: center;
+    color: azure;
+    font-size: x-large ;
+    padding: 0px;
+    border-radius: 16px;
+    margin: auto;
+    width: 60%;
+    height: auto;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+p {
+    margin-left: 20px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+#author {
+    margin-left: 20px;
+}
+
+#celsiusdiv {
+    background-color: #faefe1;
+    border-radius: 5px;
+    padding: 20px;
+}
+
+#fahrenheitdiv {
+    background-color: #faefe1;
+    border-radius: 5px;
+    padding: 20px;
+}
+
+#solutiondiv {
+    background-color: #faefe1;
+    border-radius: 5px;
+    padding: 20px;
+}
+
+#input-field {
+    text-align: left;
+    font-size: x-large;
+    display: flex;
+    flex-direction: column;
+    margin-left: 20px;
+    width: 800px;
+    height: 50px;
+    border-radius: 10px;
+}
+
+#output-field {
+    text-align: left;
+    font-size: x-large;
+    display: flex;
+    flex-direction: column;
+    margin-left: 20px;
+    width: 800px;
+    height: 50px;
+    border-radius: 10px;
+}
+
+#output-field2 {
+    text-align: left;
+    font-size: x-large;
+    display: flex;
+    flex-direction: column;
+    margin-left: 20px;
+    width: 800px;
+    height: 50px;
+    border-radius: 10px;
+}
+
+button {
+    background-color: darkblue;
+    font-weight: bold;
+    color: aliceblue;
+    width: auto;
+    height: 50px;
+    font-weight: bold;
+    font-size: x-large;
+    margin-left: 20px;
+    padding-right: 30px;
+    padding-left: 30px;
+    border-radius: 10px;
+    border: none;
+}
+
+button:hover {
+    background-color: #9900ff;
+}
+
+button:active {
+    background-color: #daa2ff;
+    transform: translateY(5px);
+}
+
+label {
+    display: block;
+    font-weight: bold;
+    font-size: large;
+    margin-left: 20px;
+    }
+
+body {
+    font-weight: bold;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+#explanation {
+    font-size: large;
+    margin-left: 40px;
+}
+
+#formula {
+    font-family:Georgia, 'Times New Roman', Times, serif;
+    margin-left: -18px;
+}
