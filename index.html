@@ -15,7 +15,7 @@
             <div id="celsiusdiv">
                 <h1 id="author">AUTHOR: Daniel Valentino</h1>
                 <p>Input the desired degree Celsius (°C) inside the following box, then click the convert button<br>
-                to obtain the conversion result in Fahrenheit (°F).</P>
+                to obtain the conversion result in Fahrenheit (°F). Use the reverse button to swap units between celsius and fahrenheit.</P>
                 <div class="type" id="type">
                     <label for="input-field" id="infi">Celsius (°C):</label><br>
                 </div>
@@ -33,33 +33,18 @@
             </div>
             <div id="solutiondiv">
             <label for="output-field2">Solution:</label><br>
-                <p>Input the desired degree Celsius (°C) inside the following box, then click the convert button to obtain the conversion result in Fahrenheit (°F).</P>
-                <label for="input-field">Celsius (°C):</label><br>
-                <input id="input-field" type="number" placeholder="0"><p> <strong>Fun fact:</strong> You can increase or decrease the number by using scroll wheel!</p><br>
-
-                <button onclick="convertButton()">Convert to Fahrenheit (°F)</button>
-                <button onclick="resetButton()">Reset</button>
-            </div>
-            <div id="fahrenheitdiv">
-                <label for="output-field">Fahrenheit (°F):</label><br>
-                <input id="output-field" type="number" placeholder="0"><br>
-                
-                <button onclick="convertButton2()">Convert to Celsius (°C) </button>
-                <button onclick="resetButton()">Reset</button>
-            </div>
-            <div id="solutiondiv">
-                <label for="output-field2">Solution:</label><br>
-                <input id="output-field2" type="text" placeholder="-" readonly><br>
+            <input id="output-field2" type="text" placeholder="-" readonly><br>
             </div>
             <div id="explanation">
-                <h2>How do I convert Celsius (°C) to Fahrenheit (°F)?</h2>
+                <h2>How do I convert Celsius (°C) to Fahrenheit (°F) and, conversely, Fahrenheit (°F) to Celsius (°C)?</h2>
                 <hr>
                 <div id="formula">
-                    <p>S degree Fahrenheit (°F) equals to S degree Celsius (°C) times 9/5 plus 32.</p><br>
+                    <p><strong>S degree Fahrenheit (°F) equals to S degree Celsius (°C) times 9/5 plus 32.</strong></p>
                     <p>S(°F) = (S(°C) * 9/5) + 32<br><br>
                     or<br><br>
-                    S(°F) = (S(°C) * 1.8) + 32
-                </p>
+                    S(°F) = (S(°C) * 1.8) + 32<br><br>
+                    while conversely, S degree Celsius (°C) equals to S degree Fahrenheit minus 32 times 5/9.</p>
+                    <p>S(°C) = (S(°F) - 32) </p>
                 </div> 
             </div>
         </main>
