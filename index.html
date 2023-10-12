@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="css/style.css">
+        <title>Kalkulator Suhu</title>
+        <script src="./js/index.js"></script>
+    </head>
+    <body>
+        <header>
+            <h1>Temperature Converter</h1>
+        </header>
+        <main>
+            <div id="celsiusdiv">
+                <h1 id="author">AUTHOR: Daniel Valentino</h1>
+                <p>Input the desired degree Celsius (°C) inside the following box, then click the convert button<br>
+                to obtain the conversion result in Fahrenheit (°F).</P>
+                <div class="type" id="type">
+                    <label for="input-field" id="infi">Celsius (°C):</label><br>
+                </div>
+                <input id="input-field" type="number" placeholder="Input Number Here"><p> <strong>Fun fact:</strong> You can increase or decrease the number by using scroll wheel!</p><br>
+
+                <button onclick="convertButton()">Convert</button>
+                <button onclick="resetButton()">Reset</button>
+                <button onclick="reverseButton()">Reverse</button>
+            </div>
+            <div id="fahrenheitdiv">
+                <div class="type" id="type2">
+                    <label for="output-field" id="oufi">Fahrenheit (°F):</label><br>
+                </div>
+                <input id="output-field" type="text" placeholder="0" readonly><br><br>    
+            </div>
+            <div id="solutiondiv">
+            <label for="output-field2">Solution:</label><br>
+                <p>Input the desired degree Celsius (°C) inside the following box, then click the convert button to obtain the conversion result in Fahrenheit (°F).</P>
+                <label for="input-field">Celsius (°C):</label><br>
+                <input id="input-field" type="number" placeholder="0"><p> <strong>Fun fact:</strong> You can increase or decrease the number by using scroll wheel!</p><br>
+
+                <button onclick="convertButton()">Convert to Fahrenheit (°F)</button>
+                <button onclick="resetButton()">Reset</button>
+            </div>
+            <div id="fahrenheitdiv">
+                <label for="output-field">Fahrenheit (°F):</label><br>
+                <input id="output-field" type="number" placeholder="0"><br>
+                
+                <button onclick="convertButton2()">Convert to Celsius (°C) </button>
+                <button onclick="resetButton()">Reset</button>
+            </div>
+            <div id="solutiondiv">
+                <label for="output-field2">Solution:</label><br>
+                <input id="output-field2" type="text" placeholder="-" readonly><br>
+            </div>
+            <div id="explanation">
+                <h2>How do I convert Celsius (°C) to Fahrenheit (°F)?</h2>
+                <hr>
+                <div id="formula">
+                    <p>S degree Fahrenheit (°F) equals to S degree Celsius (°C) times 9/5 plus 32.</p><br>
+                    <p>S(°F) = (S(°C) * 9/5) + 32<br><br>
+                    or<br><br>
+                    S(°F) = (S(°C) * 1.8) + 32
+                </p>
+                </div> 
+            </div>
+        </main>
+    </body>
+</html>
